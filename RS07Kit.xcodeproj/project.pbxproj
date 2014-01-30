@@ -16,6 +16,8 @@
 		170552C51899E1500012E992 /* RS07KitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170552C41899E1500012E992 /* RS07KitTests.m */; };
 		170552D51899E2580012E992 /* RS07Hiscores.h in Headers */ = {isa = PBXBuildFile; fileRef = 170552D31899E2580012E992 /* RS07Hiscores.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		170552D61899E2580012E992 /* RS07Hiscores.m in Sources */ = {isa = PBXBuildFile; fileRef = 170552D41899E2580012E992 /* RS07Hiscores.m */; };
+		170552E1189A00B80012E992 /* RS07Prices.h in Headers */ = {isa = PBXBuildFile; fileRef = 170552DF189A00B80012E992 /* RS07Prices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170552E2189A00B80012E992 /* RS07Prices.m in Sources */ = {isa = PBXBuildFile; fileRef = 170552E0189A00B80012E992 /* RS07Prices.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		170552C41899E1500012E992 /* RS07KitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RS07KitTests.m; sourceTree = "<group>"; };
 		170552D31899E2580012E992 /* RS07Hiscores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RS07Hiscores.h; path = RS07Hiscores/RS07Hiscores.h; sourceTree = "<group>"; };
 		170552D41899E2580012E992 /* RS07Hiscores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RS07Hiscores.m; path = RS07Hiscores/RS07Hiscores.m; sourceTree = "<group>"; };
+		170552DF189A00B80012E992 /* RS07Prices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RS07Prices.h; path = RS07Prices/RS07Prices.h; sourceTree = "<group>"; };
+		170552E0189A00B80012E992 /* RS07Prices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RS07Prices.m; path = RS07Prices/RS07Prices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +177,8 @@
 		170552D21899E1F20012E992 /* RS07Prices */ = {
 			isa = PBXGroup;
 			children = (
+				170552DF189A00B80012E992 /* RS07Prices.h */,
+				170552E0189A00B80012E992 /* RS07Prices.m */,
 			);
 			name = RS07Prices;
 			sourceTree = "<group>";
@@ -184,6 +190,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170552E1189A00B80012E992 /* RS07Prices.h in Headers */,
 				170552D51899E2580012E992 /* RS07Hiscores.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				170552D61899E2580012E992 /* RS07Hiscores.m in Sources */,
+				170552E2189A00B80012E992 /* RS07Prices.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
