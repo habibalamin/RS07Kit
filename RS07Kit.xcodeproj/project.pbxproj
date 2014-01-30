@@ -48,6 +48,8 @@
 		170552D41899E2580012E992 /* RS07Hiscores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RS07Hiscores.m; path = RS07Hiscores/RS07Hiscores.m; sourceTree = "<group>"; };
 		170552DF189A00B80012E992 /* RS07Prices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RS07Prices.h; path = RS07Prices/RS07Prices.h; sourceTree = "<group>"; };
 		170552E0189A00B80012E992 /* RS07Prices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RS07Prices.m; path = RS07Prices/RS07Prices.m; sourceTree = "<group>"; };
+		17055331189AD4860012E992 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		17055332189AD48E0012E992 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,8 @@
 		170552961899E1500012E992 = {
 			isa = PBXGroup;
 			children = (
+				17055332189AD48E0012E992 /* LICENSE.md */,
+				17055331189AD4860012E992 /* README.md */,
 				170552A91899E1500012E992 /* RS07Kit */,
 				170552BE1899E1500012E992 /* RS07KitTests */,
 				170552A21899E1500012E992 /* Frameworks */,
