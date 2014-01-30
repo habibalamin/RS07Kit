@@ -404,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RS07Kit/RS07Kit-Prefix.pch";
 				INFOPLIST_FILE = "RS07Kit/RS07Kit-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -419,6 +420,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RS07Kit/RS07Kit-Prefix.pch";
 				INFOPLIST_FILE = "RS07Kit/RS07Kit-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -483,6 +485,7 @@
 				170552CA1899E1500012E992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		170552CB1899E1500012E992 /* Build configuration list for PBXNativeTarget "RS07KitTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +494,7 @@
 				170552CD1899E1500012E992 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
