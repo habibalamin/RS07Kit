@@ -14,6 +14,8 @@
 		170552BD1899E1500012E992 /* RS07Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170552A01899E1500012E992 /* RS07Kit.framework */; };
 		170552C31899E1500012E992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 170552C11899E1500012E992 /* InfoPlist.strings */; };
 		170552C51899E1500012E992 /* RS07KitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 170552C41899E1500012E992 /* RS07KitTests.m */; };
+		170552D51899E2580012E992 /* RS07Hiscores.h in Headers */ = {isa = PBXBuildFile; fileRef = 170552D31899E2580012E992 /* RS07Hiscores.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170552D61899E2580012E992 /* RS07Hiscores.m in Sources */ = {isa = PBXBuildFile; fileRef = 170552D41899E2580012E992 /* RS07Hiscores.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		170552C01899E1500012E992 /* RS07KitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RS07KitTests-Info.plist"; sourceTree = "<group>"; };
 		170552C21899E1500012E992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		170552C41899E1500012E992 /* RS07KitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RS07KitTests.m; sourceTree = "<group>"; };
+		170552D31899E2580012E992 /* RS07Hiscores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RS07Hiscores.h; path = RS07Hiscores/RS07Hiscores.h; sourceTree = "<group>"; };
+		170552D41899E2580012E992 /* RS07Hiscores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RS07Hiscores.m; path = RS07Hiscores/RS07Hiscores.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 		170552D11899E1ED0012E992 /* RS07Hiscores */ = {
 			isa = PBXGroup;
 			children = (
+				170552D31899E2580012E992 /* RS07Hiscores.h */,
+				170552D41899E2580012E992 /* RS07Hiscores.m */,
 			);
 			name = RS07Hiscores;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170552D51899E2580012E992 /* RS07Hiscores.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170552D61899E2580012E992 /* RS07Hiscores.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
