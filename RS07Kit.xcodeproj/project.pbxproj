@@ -199,6 +199,7 @@
 		170552971899E1500012E992 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RS07;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "alAmin Apps";
 				TargetAttributes = {
