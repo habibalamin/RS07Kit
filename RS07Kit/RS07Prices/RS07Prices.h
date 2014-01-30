@@ -10,4 +10,7 @@
 
 @interface RS07Prices : NSObject
 
++ (NSDictionary *)searchPriceGuideFor:(NSString *)keyword;
++ (NSDictionary *)getPriceDetailsFor:(NSString *)item;
+
 @end
