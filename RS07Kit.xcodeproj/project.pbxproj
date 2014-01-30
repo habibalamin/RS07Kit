@@ -106,6 +106,10 @@
 		170552A91899E1500012E992 /* RS07Kit */ = {
 			isa = PBXGroup;
 			children = (
+				170552CE1899E1CF0012E992 /* RS07Bestiary */,
+				170552D01899E1E00012E992 /* RS07Calculators */,
+				170552D11899E1ED0012E992 /* RS07Hiscores */,
+				170552D21899E1F20012E992 /* RS07Prices */,
 				170552AA1899E1500012E992 /* Supporting Files */,
 			);
 			path = RS07Kit;
@@ -137,6 +141,34 @@
 				170552C11899E1500012E992 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		170552CE1899E1CF0012E992 /* RS07Bestiary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RS07Bestiary;
+			sourceTree = "<group>";
+		};
+		170552D01899E1E00012E992 /* RS07Calculators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RS07Calculators;
+			sourceTree = "<group>";
+		};
+		170552D11899E1ED0012E992 /* RS07Hiscores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RS07Hiscores;
+			sourceTree = "<group>";
+		};
+		170552D21899E1F20012E992 /* RS07Prices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RS07Prices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
