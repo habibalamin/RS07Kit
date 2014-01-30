@@ -4,8 +4,8 @@
 ---
 
 ###Currently implemented
-- RS07Hiscores
-- RS07Prices (with Zybez 2007 Price Checker API)
+- RS07Hiscores - RS07 hiscore lookup
+- RS07Prices - RS07 price guide lookup (with Zybez 2007 Price Checker API)
 
 ###TODO
 - RS07Bestiary
