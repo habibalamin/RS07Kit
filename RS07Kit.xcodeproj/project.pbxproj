@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		170552A41899E1500012E992 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170552A31899E1500012E992 /* Cocoa.framework */; };
 		170552AE1899E1500012E992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 170552AC1899E1500012E992 /* InfoPlist.strings */; };
-		170552B21899E1500012E992 /* RS07Kit.m in Sources */ = {isa = PBXBuildFile; fileRef = 170552B11899E1500012E992 /* RS07Kit.m */; };
 		170552B91899E1500012E992 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170552B81899E1500012E992 /* XCTest.framework */; };
 		170552BA1899E1500012E992 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170552A31899E1500012E992 /* Cocoa.framework */; };
 		170552BD1899E1500012E992 /* RS07Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170552A01899E1500012E992 /* RS07Kit.framework */; };
@@ -36,8 +35,6 @@
 		170552AB1899E1500012E992 /* RS07Kit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RS07Kit-Info.plist"; sourceTree = "<group>"; };
 		170552AD1899E1500012E992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		170552AF1899E1500012E992 /* RS07Kit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RS07Kit-Prefix.pch"; sourceTree = "<group>"; };
-		170552B01899E1500012E992 /* RS07Kit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RS07Kit.h; sourceTree = "<group>"; };
-		170552B11899E1500012E992 /* RS07Kit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RS07Kit.m; sourceTree = "<group>"; };
 		170552B71899E1500012E992 /* RS07KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RS07KitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		170552B81899E1500012E992 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		170552C01899E1500012E992 /* RS07KitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RS07KitTests-Info.plist"; sourceTree = "<group>"; };
@@ -109,8 +106,6 @@
 		170552A91899E1500012E992 /* RS07Kit */ = {
 			isa = PBXGroup;
 			children = (
-				170552B01899E1500012E992 /* RS07Kit.h */,
-				170552B11899E1500012E992 /* RS07Kit.m */,
 				170552AA1899E1500012E992 /* Supporting Files */,
 			);
 			path = RS07Kit;
@@ -250,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170552B21899E1500012E992 /* RS07Kit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
